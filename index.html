@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
     <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
-    <!-- <meta property="og:title" content="페이지 제목" /> -->
-    <!-- <meta property="og:description" content="페이지 설명" /> -->
-    <!-- <meta property="og:image" content="./images/thumbnail.jpg" /> -->
+    <meta property="og:title" content="파도의 페이지" />
+    <meta property="og:description" content="파도의 자기소개 페이지입니다" />
+    <meta property="og:image" content="./images/thumbnail.png" />
 
     <title>Today I Learn</title>
     <link rel="stylesheet" href="./css/main.css" />
@@ -29,12 +29,11 @@
     <section class="hero" id="about">
       <div class="profile-card">
         <div class="profile-image">
-          <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+          <img src="./images/profile.jpg" alt="프로필 사진" />
         </div>
         <div class="profile-info">
-          <h1>닉네임</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+          <h1>파도</h1>
+          <p class="tagline">흐르고 흐르면 어딘가 닿겠지</p>
         </div>
       </div>
     </section>
@@ -43,30 +42,33 @@
       <!-- 자기소개 -->
       <section class="content-section">
         <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
-        <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
+        <p>
+          안녕하세요, 우아한 테크 코스 8기에 BE파트로 참여하고 있는
+          파도입니다.<br />
+          13F 뽀롱뽀롱마을에 거주하고 있어요. 저희
+          <a href="https://github.com/choubung">깃허브</a> 친구 해요!
+        </p>
       </section>
 
       <!-- 기본 정보 -->
       <section class="content-section" id="info">
         <h2>기본 정보</h2>
-        <!-- TODO: 자신의 기본 정보를 표(<table>)로 정리하세요 -->
         <table class="info-table">
           <tr>
             <th>이름</th>
-            <td></td>
+            <td>파도(이수연)</td>
           </tr>
           <tr>
             <th>MBTI</th>
-            <td></td>
+            <td>INTJ</td>
           </tr>
           <tr>
             <th>취미</th>
-            <td></td>
+            <td>악기 연주</td>
           </tr>
           <tr>
             <th>좋아하는 음식</th>
-            <td></td>
+            <td>면 요리</td>
           </tr>
         </table>
       </section>
@@ -74,14 +76,17 @@
       <!-- 나만의 갤러리 -->
       <section class="content-section" id="gallery">
         <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+        <p class="section-desc">Looking back on 2025</p>
         <div class="gallery-grid">
-          <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
           <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
           <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+          <img src="./images/gallery-3.jpg" alt="갤러리 이미지 3" />
+          <img src="./images/gallery-4.jpg" alt="갤러리 이미지 4" />
+          <img src="./images/gallery-5.jpg" alt="갤러리 이미지 5" />
+          <img src="./images/gallery-6.jpg" alt="갤러리 이미지 6" />
+          <img src="./images/gallery-9.jpg" alt="갤러리 이미지 9" />
+          <img src="./images/gallery-8.jpg" alt="갤러리 이미지 8" />
+          <img src="./images/gallery-7.jpg" alt="갤러리 이미지 7" />
         </div>
       </section>
 
@@ -89,15 +94,77 @@
       <section class="content-section" id="works">
         <h2>나를 울린 인생 작품</h2>
         <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
-          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
           <article class="work-card">
             <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
+              <img src="./images/book-1.jpg" alt="책 표지 1" />
             </div>
             <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
+              <h3>한 스푼의 시간</h3>
+              <p>
+                작가: 구병모 <br />
+                한 줄 평: 알고 싶지 않지만 그래도 알고 싶어 <br />
+                <br />
+                그는 인간의 시간이 흰 도화지에 찍은 검은 점 한 개에 불과하다는
+                사실을 잘 안다. 그래서 그 점이 퇴락하여 지워지기 전에 사람은
+                살아 있는 나날들 동안 힘껏 분노하거나 사랑하는 한편 절망
+                속에서도 열망을 잊지 않으며 끝없이 무언가를 간구하고 기원해야
+                한다는 사실도 잘 안다. 그것이 바로, 어느 날 물속에 떨어져
+                녹아내리던 푸른 세제 한 스푼이 그에게 가르쳐준 모든 것이다.
+              </p>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-thumbnail">
+              <img src="./images/eea.jpg" alt="영화 포스터 1" />
+            </div>
+            <div class="work-info">
+              <h3>Everything Everywhere All at Once</h3>
+              <p>
+                감독/각본: 다니엘 콴/다니엘 샤이너트 <br />
+                한 줄 평: 그 모든 가능성에도 불구하고 나는 여기서 너를 사랑할래
+                <br />
+                <br />
+                미국에 이민 와 힘겹게 세탁소를 운영하며 에블린은 세무 당국의
+                조사를 위해 기관을 방문했다가 멀티버스 안에서 수천, 수만의
+                자신이 세상을 살아가고 있다는 사실을 알게 되고 그 모든 능력을
+                빌려와 위기의 세상과 가족을 구해야 하는 운명에 처한다.
+              </p>
+
+              <div style="max-width: 800px; margin: 20px auto">
+                <div
+                  style="
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    height: 0;
+                    overflow: hidden;
+                    background: #000;
+                  "
+                >
+                  <iframe
+                    src="https://www.youtube.com/embed/vOXJySPfMJY?rel=0&modestbranding=1"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                      border: 0;
+                    "
+                    title="에브리씽 에브리웨어 올 앳 원스 예고편"
+                    allow="
+                      accelerometer;
+                      autoplay;
+                      clipboard-write;
+                      encrypted-media;
+                      gyroscope;
+                      picture-in-picture;
+                    "
+                    allowfullscreen
+                  >
+                  </iframe>
+                </div>
+              </div>
             </div>
           </article>
         </div>
@@ -116,11 +183,22 @@
           </div>
           <div class="form-group">
             <label for="til-title">제목</label>
-            <input type="text" id="til-title" name="title" placeholder="학습 주제를 입력하세요" required />
+            <input
+              type="text"
+              id="til-title"
+              name="title"
+              placeholder="학습 주제를 입력하세요"
+              required
+            />
           </div>
           <div class="form-group">
             <label for="til-content">내용</label>
-            <textarea id="til-content" name="content" placeholder="오늘 배운 내용을 정리해주세요" required></textarea>
+            <textarea
+              id="til-content"
+              name="content"
+              placeholder="오늘 배운 내용을 정리해주세요"
+              required
+            ></textarea>
           </div>
           <div class="form-actions">
             <button type="submit">등록</button>
@@ -130,15 +208,16 @@
 
         <!-- TIL 목록: 폼으로 등록하면 여기에 항목이 추가됩니다 -->
         <div class="til-list" id="til-list">
-          <!-- 아래는 예시 항목입니다. 자유롭게 수정하거나 삭제하세요 -->
           <article class="til-item">
             <time>2026-03-15</time>
             <h3>HTML 시멘틱 태그</h3>
-            <p>header, nav, main, section, article, footer 등 시멘틱 태그의 역할과 사용법을 배웠다.</p>
+            <p>
+              header, nav, main, section, article, footer 등 시멘틱 태그의
+              역할과 사용법을 배웠다.
+            </p>
           </article>
         </div>
       </section>
-
     </main>
 
     <footer>
